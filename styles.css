@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border: 100px black;
+    padding: 50px;
+    border: 1.5px solid black;
+   
+}
+
+.middle-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+}
+
+.animal{
+    transition: transform 1s;
+}
+.animal:hover{
+    transform:scale(1.2);
+}
+
+ .light {
+        width: 130px;
+        height: 195px;
+        background: url("light.png") no-repeat;
+        display: inline-block;
+    }
+    .card:hover {
+        background: url("lightbulb.png") no-repeat;
+    }
+
